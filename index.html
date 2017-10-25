@@ -2,27 +2,33 @@
 <html>
 <head>
 	
-   <title>234</title>
+   <title>Anime Gif Generator</title>
 </head>
 <body>
-<script language="JavaScript">
+	
+	<h1>Anime Gif Generator</h1>
 
 
-function random_imglink(){
-var myimages=new Array()
-//specify random images below. You can have as many as you wish
-myimages[1]="image1.gif"
-myimages[2]="image2.gif"
-myimages[3]="image3.gif"
-myimages[4]="image4.gif"
 
-var ry=Math.floor(Math.random()*myimages.length)
-if (ry==0)
-ry=1
-document.write('<img src="'+myimages[ry]+'" border=0>')
-}
-random_imglink()
-//-->
-</script>
+	<script language="JavaScript">
+
+
+	function random_imglink(){
+	var myimages=new Array()
+	//specify random images below. You can have as many as you wish
+	myimages[1]="image1.gif"
+	myimages[2]="image2.gif"
+	myimages[3]="image3.gif"
+	myimages[4]="image4.gif"
+
+	var ry=Math.floor(Math.random()*myimages.length)
+	if (ry==0)
+	ry=1
+	document.write('<img src="'+myimages[ry]+'" border=0>')
+	}
+	random_imglink()
+	//-->
+	</script>
+
 </body>
 </html>
