@@ -1,3 +1,19 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: American Captain;
+    src: url("American Captain.ttf") format("truetype");
+}
+
+header > p {
+	text-align: center;
+	color: black;
+	-webkit-text-stroke: 1px white;
+	font-family: American Captain;
+	font-size: 10em;
+	padding: 0px;
+}
+
 body {
 	background-color: #131313;
 	margin-left: auto;
@@ -5,13 +21,6 @@ body {
 	width: 100%;
 
 
-}
-
-h1 {
-	font-size: 64px;
-	font-family: Arial Black;
-	color: white;
-	text-align: center;
 }
 
 .button {
@@ -29,4 +38,3 @@ h1 {
 div {
 	padding: 10px;
 }
-	
